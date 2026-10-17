@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background:
+    url('assets/image/estrela.png') left bottom / 700px auto no-repeat,
+    url('assets/image/estrela2.png') right top / 700px auto no-repeat,
+    linear-gradient(90deg, #edc5e6d3 40%, #910ac2dc 100%);
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #3b0a46;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 480px;
+}
+
+img {
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 8px 0;
+}
+
+h1 {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 8px 0;
+}
+
+p {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 24px;
+    margin: 0 0 24px 0;
+}
+
+.container-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+
+.botoes button:hover {
+    background-color: #6b0f8070;
+    color: #ffffff;
+    box-shadow: 0px 8px 25px rgba(114, 25, 133, 0.3);
+    border-color: rgba(108, 15, 128, 0.4);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    transform: translateY(-5px);
+}
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 540px;
+    height: 56px;
+}
+
+.botoes button {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    height: 48px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3b0a46; 
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 24px;
+    width: 100%;
+    padding: 132px;
+}
+
+
+.GitHubIcon {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) saturate(100%) invert(8%) sepia(36%) saturate(4644%) hue-rotate(265deg) brightness(82%) contrast(108%);
+}
+
+.LinkedInIcon {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) saturate(100%) invert(8%) sepia(36%) saturate(4644%) hue-rotate(265deg) brightness(82%) contrast(108%);
+}
+

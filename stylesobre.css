@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background:
+    url('assets/image/estrela.png') left bottom / 700px auto no-repeat,
+    url('assets/image/estrela2.png') right top / 700px auto no-repeat,
+    linear-gradient(90deg, #edc5e6d3 40%, #910ac2dc 100%);
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #3b0a46;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  max-width: 480px;
+}
+
+img {
+  width: 112px;
+  height: 112px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.foto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 8px 0;
+}
+
+h1 {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 24px 0;
+}
+
+p {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 24px;
+    margin: 0 0 24px 0;
+}
+
+.biografia {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #3b0a46;
+    text-align: center;
+    width: 100%;
+    max-width: 490px;
+    margin: 16px auto 24px auto;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 24px;
+    width: 100%;
+    padding: 24px;
+}
+
+
+.GitHubIcon {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) saturate(100%) invert(8%) sepia(36%) saturate(4644%) hue-rotate(265deg) brightness(82%) contrast(108%);
+}
+
+.LinkedInIcon {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) saturate(100%) invert(8%) sepia(36%) saturate(4644%) hue-rotate(265deg) brightness(82%) contrast(108%);
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 490px;
+    height: 48px;
+    margin: 14px auto 0 auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #3b0a46;
+    transition: all 0.3s ease;
+}
+
+.container-voltar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.botao:hover {
+    background-color: #6b0f8070;
+    color: #ffffff;
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 15px rgba(114, 25, 133, 0.4);
+    border-color: rgba(108, 15, 128, 0.4);
+}
